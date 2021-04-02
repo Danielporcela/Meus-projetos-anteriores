@@ -1,0 +1,155 @@
+html, body {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: verdana, sans-serif;
+	color:#333;
+	background:url(../imagens/fundo.jpg) no-repeat; /* Caminho da imagem e se vai ou não repetir */
+}
+
+h2 {
+	margin-top: 50px;
+	font-size: 40px;
+	text-align: center;
+}
+
+ul li {
+	display: table-cell;
+	text-decoration: none;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #FFF;
+	padding: 15px;
+}
+
+/* HEADER - CABEÇALHO */
+header {
+	background-color: rgba(0, 0, 0, 0.7);
+	height: 100px;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.logo {
+    background:url(../imagens/logo.png) no-repeat; /* Caminho da imagem e se vai ou não repetir */
+    width: 255px; /* Largura da imagem */
+    height: 115px; /* Altura da imagem */
+    float: left;
+ }
+
+.telefone {
+	float: left;
+	width: 30%;
+	margin-top: 32px;
+	font-size: 26px;
+	font-weight: bold;
+	text-align: center;
+	color:  #ff4d4d;
+}
+
+ .menu-topo ul {
+	width: 45%;
+	margin-top: 24px;
+	float: right;
+	list-style: none;
+
+}
+
+.menu-topo ul li {
+	padding: 10px 5px;
+	text-align: center;
+
+
+}
+
+.menu-topo ul li a {
+	color: #FFF;
+	font-size: 14px;
+	text-decoration: none;
+
+}
+
+.menu-topo a:hover{
+	color: #ff4d4d;
+}
+
+
+/* CSS SLIDER */
+caption, th, td {
+	text-align:left;
+	font-weight:normal;
+}
+
+blockquote:before, blockquote:after,
+	q:before, q:after {
+		content:"";
+}
+
+blockquote, q {
+	quotes:"" "";
+}
+
+.slider-wrapper { 
+	width: 80%; 
+	margin: 100px auto;
+}
+
+.slider-wrapper img {
+	width: 100%;
+
+
+}
+
+.conteudo {
+	background-color: rgba(255, 255, 255, 0.8);
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.sabores {
+	background-color: rgba(255, 255, 255, 0.8);
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+	margin-bottom: 50px;
+}
+
+.sabores figure {
+	width: 450px;
+	margin: 50px auto;
+}
+
+.sabores img {
+	width: 100%;
+}
+
+
+
+footer {
+	width: 100%;
+	background-color: #000; 
+	padding: 20px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.menu-rodape {
+	max-width: 550px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.menu-rodape a:hover {
+	color: #ff4d4d;
+}
+
+
